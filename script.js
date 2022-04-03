@@ -15,8 +15,8 @@ if (window.top !== window.self) {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://raw.githubusercontent.com/ninjuh1124/raw/master/hyoukaplaceraw.png?" + Date.now();
-            i.style = "position: absolute;left: " + topLeftX + "px;top: " + topLeftY + "px;image-rendering: pixelated;width: 32px;height: 9px;";
+            i.src = "https://raw.githubusercontent.com/ninjuh1124/raw/master/hyoukaplace2.png?" + Date.now();
+            i.style = "position: absolute;left: " + topLeftX + "px;top: " + topLeftY + "px;image-rendering: pixelated;width: 2000px;height: 1000px;";
             console.log(i);
             return i;
         })())
